@@ -41,6 +41,18 @@ function print_filenames(err, data) {
   });
 }
 
+//USING .FILTER
+// fs.readdir(directory, print_filenames);
+
+// function print_filenames = async.filter(err, data) {
+//   async.each(data, function(file, cb) {
+//     if (path.extname(file) == file_extension)
+//       { console.log(file) }
+//     else
+//       { cb() }
+//   });
+// }
+
 //ANSWER
     // var fs = require('fs')
     // var path = require('path')
