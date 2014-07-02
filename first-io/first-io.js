@@ -16,7 +16,7 @@ readit = fs.readFileSync(process.argv[2]);
             // 'end' Number, Optional, Default: buffer.length
         // Decodes and returns a string from buffer data encoded with encoding (defaults to 'utf8') beginning at start (defaults to 0) and ending at end (defaults to buffer.length). 
 
-lines = readit.toString().split("\n").length ;
+lines = readit.toString().split("\n").length;
 
 console.log(--lines);
 
